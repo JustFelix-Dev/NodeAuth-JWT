@@ -1,0 +1,22 @@
+*{
+    transition: all ease-in 1000ms;
+}
+body{
+    background-color: lightyellow;
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+span > span{
+    color: green;
+}
+
+label,input{
+    margin-bottom: 1.3rem;
+}
